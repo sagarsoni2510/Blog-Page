@@ -1,0 +1,125 @@
+.button {
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+p.a{
+  font-family: "Times New Roman", Times, serif;
+}
+
+.button1 { 
+  background-color: #FFFFFF;
+  float:left;
+} 
+
+.button2 {
+  background-color: white;
+  float: right;
+  color: black;
+  border: 2px solid #e7e7e7;
+  border-radius: 8px;
+}
+
+.button3 {
+  background-color: #FFFFFF;
+  font-size: 40px;
+  float:center;
+} 
+
+.button4 { 
+  background-color: #FFFFFF;
+  float:left;
+  border-radius: 24px;
+  margin: 10px 5px;
+} 
+
+.button5 { 
+  background-color: #FFFFFF;
+  float:left;
+  border-radius: 24px;
+  margin: 10px 5px;
+} 
+
+* {
+  box-sizing: border-box;
+}
+
+/* Add a gray background color with some padding */
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  font-size: 40px;
+  text-align: center;
+  background: white;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 50%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 50%;
+  padding-left: 20px;
+}
+
+.thumbnail {
+  background-color: #aaa;
+  width: 50%;
+  height: full;
+  float: right;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+   background-color: white;
+   padding: 20px;
+   margin-top: 20px;
+   clear: both;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.navigation {
+ text-align: right;
+ padding: 40px;
+}
+
+/* Footer */
+.footer {
+  padding: 15px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+</style>
